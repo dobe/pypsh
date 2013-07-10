@@ -5,6 +5,10 @@ Changes for pypsh
 Unreleased
 ==========
 
+ - added buildout support
+
+ - depend on argcomplete since it is used by argh
+
 2013-06-24: 0.6.0
 =================
 

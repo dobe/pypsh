@@ -27,6 +27,7 @@ setup(
         'argh',
         'paramiko',
         'termcolor',
+        'argcomplete'
     ],
     entry_points={
         'console_scripts': [

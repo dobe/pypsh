@@ -70,14 +70,9 @@ virtual environment and install the dependencies::
 
     git clone https://github.com/mfussenegger/pypsh.git
     cd pypsh
-    mkvirtualenv pypsh
-    pip install -r requirements.txt
+    python bootstrap.py
+    ./bin/buildout
 
-Sometimes it is useful to point the ``pypsh`` command to the local development
-branch::
+Invoke pypsh like this.
 
-    pip install --upgrade --force-reinstall --editable .
-
-But usually it is sufficient to invoke it like this::
-
-    python pypsh/main.py {cmd,copy} ...
+    ./bin/pypsh
